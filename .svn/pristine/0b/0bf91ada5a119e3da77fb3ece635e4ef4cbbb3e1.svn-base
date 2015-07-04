@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <VideoView
+        android:id="@+id/radioMainVv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+    
+	<ImageView
+        android:id="@+id/radioBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>    
+        
+	<ImageView
+        android:id="@+id/radioAnim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>    
+	
+	<ImageView
+        android:id="@+id/radioModerator"
+        android:layout_width="240dp"
+        android:layout_height="320dp"/>
+	              
+    <TextView
+        android:id="@+id/radioTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_gravity="left|center_horizontal"
+        android:layout_marginLeft="302dp"
+        android:layout_marginTop="52dp"
+        android:textSize="19sp" />
+	 <RelativeLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="left|center_horizontal"
+	    android:layout_marginLeft="881dp"
+	    android:layout_marginTop="116dp">   
+		    <TextView
+		        android:id="@+id/radioData"
+		        android:layout_width="350dp"
+		        android:layout_height="wrap_content"
+		        android:textColor="@android:color/white"
+		        android:layout_marginTop="15dp"
+		        android:textSize="18sp" 
+		        android:background="@drawable/radio_beach_text"
+		        android:visibility="invisible"/>    
+	</RelativeLayout>
+	
+     <TextView
+        android:id="@+id/radioHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+		android:layout_marginBottom="20dp" 
+        android:textColor="@android:color/white"
+        android:textSize="14sp" 
+        android:shadowRadius="7.0"
+        android:shadowColor="@android:color/black"
+        android:text=" Press 'M' for Voice input "/>
+                 
+    <TextView
+        android:id="@+id/radioNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <SeekBar
+        android:id="@+id/radioVolumeSb"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:progressDrawable="@drawable/seek_progress"
+        android:thumb="@drawable/transparent"        
+        android:layout_marginBottom="40dp" />
+    
+
+
+
+    
+</FrameLayout>

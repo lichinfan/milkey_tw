@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="checkout">
+        <item>購物車</item>
+        <item>SHOPPING CART</item>
+        <item>CHECKOUT</item>
+        <item>CHECK OUT</item>
+        <item>CART</item>
+        <item>SHOPPINGCART</item>
+    </string-array>
+    <string-array name="wishlist">
+        <item>願望</item>
+        <item>願望清單</item>
+        <item>最愛</item>
+        <item>我的最愛</item>
+        <item>WISH LIST</item>
+        <item>WISHLIST</item>
+        <item>追蹤</item>
+        <item>追蹤清單</item>
+    </string-array>
+    <string-array name="history">
+        <item>HISTORY</item>
+        <item>ORDER HISTORY</item>
+        <item>記錄</item>
+        <item>購物記錄</item>
+        <item>訂單</item>
+        <item>訂單查詢</item>
+        <item>查詢訂單</item>
+    </string-array>
+    <string-array name="search">
+        <item>SEARCH</item>
+        <item>FIND</item>
+        <item>查</item>
+        <item>找</item>
+        <item>尋找</item>
+        <item>搜尋</item>
+        <item>查詢</item>
+        <item></item>
+    </string-array>
+    <string-array name="payment">
+        <item>PAYMENT</item>
+        <item>付款</item>
+        <item>付錢</item>
+        <item>付款方式</item>
+        <item>結帳</item>
+    </string-array>
+    <string-array name="addalltocart">
+        <item>ADD ALL TO CART</item>
+        <item>ADDED ALL TO CART</item>
+        <item>全部加到購物車</item>
+        <item>全部放入購物車</item>
+        <item>全加入購物車</item>
+    </string-array>
+    <string-array name="addtowishlist">
+        <item>ADD TO WISH LIST</item>
+        <item>ADDED TO WISH LIST</item>
+        <item>ADD TO WISHLIST</item>
+        <item>ADDED TO WISHLIST</item>
+        <item>加到我的最愛</item>
+        <item>加到追蹤清單</item>
+    </string-array>
+    <string-array name="addToCart">
+        <item>ADD TO CART</item>
+        <item>ADDED TO CART</item>
+        <item>放入購物車</item>
+    </string-array>
+    <string-array name="pageup">
+        <item>page up</item>
+        <item>previous page</item>
+        <item>last page</item>
+        <item>上一頁</item>
+    </string-array>
+    <string-array name="pagedown">
+        <item>page down</item>
+        <item>next page</item>
+        <item>下一頁</item>
+    </string-array>
+    <string-array name="item">
+        <item>item *</item>
+        <item>items *</item>
+        <item>number *</item>
+        <item>numbers *</item>
+        <item>項目*</item>
+        <item>選項*</item>
+        <item>項目 *</item>
+        <item>選項 *</item>
+        <item>第*項</item>
+    </string-array>
+    <string-array name="next">
+        <item>next</item>
+        <item>order</item>
+        <item>送出訂單</item>
+        <item>下一步</item>
+    </string-array>
+    <string-array name="buyproduct">
+        <item>我要買*</item>
+        <item>給我*</item>
+        <item>買*</item>
+        <item>i want buy *</item>
+    </string-array>
+    <string-array name="buyproductwithnumber">
+        <item>我想買*</item>
+    </string-array>
+    <string-array name="deleteproduct">
+        <item>我不想買*</item>
+        <item>我不要買*</item>
+        <item>刪除*</item>
+        <item>i want delete *</item>
+        <item>i want remove *</item>
+    </string-array>
+    
+    <string-array name="page"> 
+        <item>page *</item> 
+        <item>第*頁</item> 
+    </string-array>
+</resources>

@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/moderator_hi_bubble"
+    android:layout_width="100dip"
+    android:layout_height="100dip"
+    android:background="@drawable/moderator_hi_bubble"
+    android:gravity="center_vertical|left"
+    android:visibility="invisible" >
+
+    <LinearLayout
+        android:id="@+id/bubbleTextLinear"
+        android:layout_width="470px"
+        android:layout_height="300px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/moderator_hi_bubble_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:shadowColor="#222222"
+            android:shadowDx="2"
+            android:shadowDy="3"
+            android:shadowRadius="2"
+            android:singleLine="true"
+            android:text="Just Open Milk!"
+            android:textColor="@android:color/white"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/moderator_hi_bubble_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:lines="2"
+            android:shadowColor="#222222"
+            android:shadowDx="2"
+            android:shadowDy="3"
+            android:shadowRadius="2"
+            android:text="Family \u0026 Friends\nHappy Hour \u0026 Smile"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+package com.kentec.milkbox.view;
+
+import android.app.Dialog;
+import android.util.DisplayMetrics;
+import android.view.Display;
+import android.view.KeyEvent;
+import android.view.View;
+import android.view.ViewGroup.LayoutParams;
+import android.widget.LinearLayout;
+
+import com.kentec.milkbox.BaseActivity;
+import com.kentec.milkbox.asr.ASRActivity;
+
+public class BaseDialog extends Dialog {
+
+	protected int mWidth;
+	protected int mHeight;
+	protected int mBaseWidth;
+	protected BaseActivity mActivity;
+
+	public BaseDialog(BaseActivity activity) {
+		super(activity);
+		Display display = getWindow().getWindowManager().getDefaultDisplay();
+		mHeight = (int) (display.getHeight() * 0.9);
+		mWidth = (int) (display.getWidth() * 0.8);
+		mBaseWidth = (int ) (mWidth*0.9) / 10;
+		mActivity = activity;
+	}
+
+	public BaseDialog(BaseActivity activity, int style) {
+		super(activity, style);
+		DisplayMetrics dm = new DisplayMetrics();
+		getWindow().getWindowManager().getDefaultDisplay().getMetrics(dm);
+		mHeight = (int) (dm.heightPixels * 0.9);
+		mWidth = (int) (dm.widthPixels * 0.8);
+		mBaseWidth = (int ) (mWidth*0.9) / 10;
+		mActivity = activity;
+	}
+
+	protected void reLayout(LinearLayout mainLl, int width, int height) {
+		LayoutParams params = mainLl.getLayoutParams();
+		params.width = width;
+		params.height = height;
+		mainLl.setLayoutParams(params);
+	}
+
+	protected void reLayout(LinearLayout mainLl, int base) {
+		LayoutParams params = mainLl.getLayoutParams();
+		params.width = mBaseWidth * base;
+		mainLl.setLayoutParams(params);
+	}
+
+	protected void reLayout(View view, int base) {
+		LayoutParams params = view.getLayoutParams();
+		params.width = mBaseWidth * base;
+		view.setLayoutParams(params);
+	}
+
+	@Override
+	public boolean onKeyUp(int keyCode, KeyEvent event) {
+		if (mActivity instanceof ASRActivity) {
+			boolean handled =  ((ASRActivity) mActivity).dispatchKeyUpEvent(keyCode, event, super.getCurrentFocus());
+			if (handled)
+				return true;
+		}
+		
+		return super.onKeyUp(keyCode, event);
+	}
+}

@@ -1,0 +1,93 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Dialog_Full">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- <item name="android:alpha">0.97</item> -->
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Dialog_Checkout">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:textColor">#99000000</item>
+        <!-- <item name="android:alpha">0.97</item> -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Dialog_HomeDine_progress">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:textColor">#99000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="ListView_Scrollbar">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">false</item>
+        <item name="android:scrollbarStyle">insideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:scrollbarFadeDuration">0</item>
+        <item name="android:scrollbarThumbVertical">@drawable/fastscroll_thumb</item>
+        <item name="android:scrollbarTrackVertical">@drawable/fastscroll_track</item>
+    </style>
+    
+    <style name="UserGuideActivity">
+        <item name="android:windowBackground">@color/userguide</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>     
+    
+    <style name="Transparent">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!--        
+        <item name="android:windowAnimationStyle">@style/Animation</item>                
+        --> 
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>       
+    </style>
+    
+    <!--  取消所有的 Activity 切換動畫  -->
+    <style name="Animation"  parent="@android:style/Animation.Activity"> 
+        <item name="android:activityOpenEnterAnimation">@null</item> 
+        <item name="android:activityOpenExitAnimation">@null</item> 
+        <item name="android:activityCloseEnterAnimation">@null</item> 
+        <item name="android:activityCloseExitAnimation">@null</item> 
+        <item name="android:taskOpenEnterAnimation">@null</item> 
+        <item name="android:taskOpenExitAnimation">@null</item> 
+        <item name="android:taskCloseEnterAnimation">@null</item> 
+        <item name="android:taskCloseExitAnimation">@null</item> 
+        <item name="android:taskToFrontEnterAnimation">@null</item> 
+        <item name="android:taskToFrontExitAnimation">@null</item> 
+        <item name="android:taskToBackEnterAnimation">@null</item> 
+        <item name="android:taskToBackExitAnimation">@null</item> 
+    </style>
+
+</resources>

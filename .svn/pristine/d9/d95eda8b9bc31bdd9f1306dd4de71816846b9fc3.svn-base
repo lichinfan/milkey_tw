@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ShowToast">
+        <ignore path="src/com/kentec/milkbox/homedine/view/homedineprogress/HomeDineProgressFragment.java" />
+    </issue>
+</lint>

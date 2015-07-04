@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/setting_bg" >
+
+    <!-- <ImageView
+        android:id="@+id/SettingMainSelect"
+        android:layout_width="314dp"
+        android:layout_height="170dp"
+        android:background="@android:color/white"
+        android:alpha="0.3"  /> -->
+
+    <ImageView
+        android:id="@+id/SettingItemSelect"
+        android:layout_width="1150dp"
+        android:layout_height="60dp"
+        android:background="@android:color/white"
+        android:alpha="0.3"  />
+
+    <ImageView
+        android:id="@+id/SettingPersonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/setting_info" />
+
+    <ImageView
+        android:id="@+id/SettingSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/setting_set" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SettingPersonalLayout" >
+
+        <TextView
+            android:id="@+id/SettingFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/SettingFirstNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/SettingSurname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Surname"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/SettingSurnameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/SettingNickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nickname"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/SettingNicknameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/SettingGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/SettingGenderText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/SettingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/SettingTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/SettingMoreText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More Info."
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/SettingMoreButtonBg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/setting_btn_bg" />
+
+        <ImageView
+            android:id="@+id/SettingMoreButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/setting_slidebar" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/SettingMoreLayout"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/SettingAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+            	android:textSize="18sp"
+            	android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/SettingAddressText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            	android:textSize="18sp"
+            	android:textColor="@android:color/white"
+            	android:singleLine="true" />
+            
+            <TextView
+                android:id="@+id/SettingTEL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TEL No."
+            	android:textSize="18sp"
+            	android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/SettingTELText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            	android:textSize="18sp"
+            	android:textColor="@android:color/white" />
+            
+            <TextView
+                android:id="@+id/SettingMobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile phone No."
+            	android:textSize="18sp"
+            	android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/SettingMobileText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            	android:textSize="18sp"
+            	android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/SettingCreditType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Credit card type"
+            	android:textSize="18sp"
+            	android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/SettingCreditTypeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            	android:textSize="18sp"
+            	android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/SettingCreditNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Credit card No."
+            	android:textSize="18sp"
+            	android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/SettingCreditNoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            	android:textSize="18sp"
+            	android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/SettingPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+            	android:textSize="18sp"
+            	android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/SettingPasswordText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            	android:textSize="18sp"
+            	android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SettingSettingLayout"
+        android:visibility="invisible" >
+        
+        <TextView
+            android:id="@+id/SettingWifiText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wifi"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/SettingWifiHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setting your internet"
+            android:textSize="9sp"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/SettingWifiButtonBg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/setting_btn_bg" />
+        
+        <ImageView
+            android:id="@+id/SettingWifiButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/setting_slidebar" />
+        
+        <TextView
+            android:id="@+id/SettingBuletoothText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buletooth"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/SettingBuletoothHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Turn on or turn off bluetooth"
+            android:textSize="9sp"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/SettingBuletoothButtonBg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/setting_btn_bg" />
+        
+        <ImageView
+            android:id="@+id/SettingBuletoothButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/setting_slidebar" />
+        
+        <TextView
+            android:id="@+id/SettingMIGSText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MIGS"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/SettingMIGSHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MIGS Active Notification interruption"
+            android:textSize="9sp"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/SettingMIGSButtonBg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/setting_btn_bg" />
+        
+        <ImageView
+            android:id="@+id/SettingMIGSButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/setting_slidebar" />
+        <TextView
+            android:id="@+id/SettingHIDText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HID"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/SettingHIDHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Human input device"
+            android:textSize="9sp"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/SettingHIDButtonBg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/setting_btn_bg" />
+        
+        <ImageView
+            android:id="@+id/SettingHIDButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/setting_slidebar" />
+        
+        <TextView
+            android:id="@+id/SettingOffensiveText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Block offensive words"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/SettingOffensiveHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hide recognized offensive voice results"
+            android:textSize="9sp"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/SettingOffensiveButtonBg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/setting_btn_bg" />
+        
+        <ImageView
+            android:id="@+id/SettingOffensiveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/setting_slidebar" />
+        
+        <TextView
+            android:id="@+id/SettingIMEIText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IMEI"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/SettingIMEIHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="9sp"
+            android:textColor="@android:color/white" />
+        
+        <TextView
+            android:id="@+id/SettingVersionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/SettingVersionHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="9sp"
+            android:textColor="@android:color/white" />         
+    </RelativeLayout>
+
+</RelativeLayout>

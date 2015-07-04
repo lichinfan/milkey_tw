@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="@drawable/bg_listview_select">
+
+    <TextView
+        android:id="@+id/orderNumTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#ff000000"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="1dip"
+        android:layout_height="match_parent"
+        android:background="#ff000000" />
+
+    <TextView
+        android:id="@+id/orderDateTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#ff000000"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="1dip"
+        android:layout_height="match_parent"
+        android:background="#ff000000" />
+
+    <TextView
+        android:id="@+id/shipToTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#ff000000"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="1dip"
+        android:layout_height="match_parent"
+        android:background="#ff000000" />
+
+    <TextView
+        android:id="@+id/orderTotalTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#ff000000"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="1dip"
+        android:layout_height="match_parent"
+        android:background="#ff000000" />
+
+    <TextView
+        android:id="@+id/statusTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#ff000000"
+        android:textSize="16sp" />
+
+</LinearLayout>

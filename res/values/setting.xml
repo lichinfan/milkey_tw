@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="personalinfo"> 
+        <item>personalinfo</item>
+        <item>personal info</item>  
+    </string-array>
+    <string-array name="settingsetting"> 
+        <item>setting</item> 
+    </string-array>
+</resources>

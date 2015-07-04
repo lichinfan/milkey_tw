@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+<!--     <LinearLayout -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:orientation="vertical" > -->
+
+<!--         <Spinner -->
+<!--             android:id="@+id/mainSpinner" -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="wrap_content" /> -->
+
+<!--         <LinearLayout -->
+<!--             android:id="@+id/creditCardLl" -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:orientation="vertical" -->
+<!--             android:visibility="visible" > -->
+
+<!--             <LinearLayout -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:nextFocusDown="@+id/ccTypeSpinner" > -->
+
+<!--                 <TextView -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:layout_gravity="center_vertical" -->
+<!--                     android:layout_weight="1" -->
+<!--                     android:text="@string/name" /> -->
+
+<!--                 <EditText -->
+<!--                     android:id="@+id/ownerEt" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:layout_weight="1" -->
+<!--                     android:ems="10" -->
+<!--                     android:inputType="textPersonName" -->
+<!--                     android:nextFocusDown="@+id/ccTypeSpinner" > -->
+<!--                 </EditText> -->
+<!--             </LinearLayout> -->
+
+<!--             <LinearLayout -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="wrap_content" > -->
+
+<!--                 <TextView -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:layout_gravity="center_vertical" -->
+<!--                     android:text="@string/checkout_credit_card_type" /> -->
+
+<!--                 <Spinner -->
+<!--                     android:id="@+id/ccTypeSpinner" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:layout_weight="1"  -->
+<!--                     android:nextFocusDown="@+id/ccNumEt"/> -->
+<!--             </LinearLayout> -->
+
+<!--             <LinearLayout -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="wrap_content" > -->
+
+<!--                 <TextView -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="@string/checkout_credit_card_number" /> -->
+
+<!--                 <EditText -->
+<!--                     android:id="@+id/ccNumEt" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:layout_weight="1" -->
+<!--                     android:ems="10" -->
+<!--                     android:inputType="number|text"  -->
+<!--                     android:nextFocusDown="@+id/ccExpiryMMSpinner"> -->
+<!--                 </EditText> -->
+<!--             </LinearLayout> -->
+
+<!--             <LinearLayout -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="wrap_content" > -->
+
+<!--                 <TextView -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:layout_gravity="center_vertical" -->
+<!--                     android:text="@string/checkout_credit_card_expiry" /> -->
+
+<!--                 <Spinner -->
+<!--                     android:id="@+id/ccExpiryMMSpinner" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:layout_weight="1"  -->
+<!--                     android:nextFocusDown="@+id/ccExpiryYYSpinner"/> -->
+
+<!--                 <Spinner -->
+<!--                     android:id="@+id/ccExpiryYYSpinner" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:layout_weight="1"  -->
+<!--                     android:nextFocusDown="@+id/ccCidEt"/> -->
+<!--             </LinearLayout> -->
+
+<!--             <LinearLayout -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="wrap_content" > -->
+
+<!--                 <TextView -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="@string/checkout_credit_card_cid" /> -->
+
+<!--                 <EditText -->
+<!--                     android:id="@+id/ccCidEt" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:ems="5" -->
+<!--                     android:inputType="text|number" > -->
+<!--                 </EditText> -->
+<!--             </LinearLayout> -->
+<!--         </LinearLayout> -->
+<!--     </LinearLayout> -->
+
+</ScrollView>

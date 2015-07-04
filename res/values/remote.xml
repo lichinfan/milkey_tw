@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="remindme">
+        <item>remind</item>
+        <item>call</item>        
+    </string-array>
+   
+    <string name="doRemind">
+        <item>, wake up!wake up!wake up!</item>       
+    </string> 
+    
+    <string name="doSayAgain">
+    <item>, can you speak again, thanks</item>       
+    </string> 
+    
+</resources>

@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <VideoView
+        android:id="@+id/mainVv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+    <TextView
+        android:id="@+id/tvHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+		android:layout_marginBottom="20dp" 
+        android:textColor="@android:color/white"
+        android:textSize="14sp" 
+        android:shadowRadius="7.0"
+        android:shadowColor="@android:color/black"
+        android:text=" Press 'M' for Voice input "/>
+    <TextView
+        android:id="@+id/nameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <SeekBar
+        android:id="@+id/volumeSb"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:progressDrawable="@drawable/seek_progress"
+        android:thumb="@drawable/transparent"        
+        android:layout_marginBottom="40dp" />
+
+</FrameLayout>

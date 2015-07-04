@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_listview_select" >
+
+    <RelativeLayout
+        android:id="@+id/mainRl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <ImageView
+            android:id="@+id/productIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ic_loading" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="1dip"
+        android:layout_height="match_parent"
+        android:background="#ff000000" />
+
+    <TextView
+        android:id="@+id/nameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="NAME"
+        android:textColor="#ff000000"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="1dip"
+        android:layout_height="match_parent"
+        android:background="#ff000000" />
+
+    <TextView
+        android:id="@+id/shortDescTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="NAME"
+        android:textColor="#ff000000"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="1dip"
+        android:layout_height="match_parent"
+        android:background="#ff000000" />
+    
+    <TextView
+        android:id="@+id/expDateTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#ff000000"
+        android:text="expDate"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="1dip"
+        android:layout_height="match_parent"
+        android:background="#ff000000" />
+
+    <ImageView
+        android:id="@+id/useIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:src="@drawable/ic_check_green" />
+    
+</LinearLayout>

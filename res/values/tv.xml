@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="TvHelpMenu">
+        <item>What can I say</item>
+        <item>Help</item>
+        <item>Command List</item>
+	<item>我能怎麼說</item>
+	<item>我能說什麼</item>
+        <item>關鍵字</item>
+        <item>小幫手</item>
+	<item>怎麼辦</item>
+    </string-array>
+        
+    <string-array name="TvChangeChannel">
+        <item>Channel *</item> 
+	<item>第*台</item>
+    </string-array>
+
+    <string-array name="TvChangeVolume">
+        <item>Change Volume *</item> 
+        <item>Volume Change *</item> 
+	<item>聲音調到</item>
+	<item>音量調到</item>
+	<item>調整音量到</item>
+    </string-array>
+    
+    <string-array name="TvChannelUp">
+        <item>Channel Up</item>
+        <item>Previous Channel</item>
+        <item>up</item>
+        <item>前一台</item> 
+    </string-array>
+    
+    <string-array name="TvChannelDown">
+        <item>Channel Down</item>
+        <item>Next Channel</item>
+        <item>down</item>  
+        <item>下一台</item> 
+        <item>後一台</item> 
+    </string-array>
+    
+    <string-array name="TvLastChannel">
+        <item>Last Channel</item>
+        <item>Last Chance</item>
+        <item>Recall</item>
+	<item>上一台</item> 
+	<item>返回</item> 
+    </string-array>
+    
+    <string-array name="TvMute">
+        <item>Mute</item> 
+        <item>Volume off</item>
+        <item>最小聲</item> 
+        <item>靜音</item> 
+        <item>安靜</item> 
+        <item>無聲</item> 
+    </string-array>
+    
+    <string-array name="TvVolumeUp">
+        <item>Volume Up</item> 
+        <item>Louder</item>
+        <item>大</item> 
+        <item>大聲</item> 
+        <item>大聲一點</item> 
+        <item>變大聲</item>
+	<item>調大聲</item> 
+    </string-array>
+    
+    <string-array name="TvVolumeDown">
+        <item>Volume Down</item> 
+        <item>小</item> 
+        <item>小聲</item> 
+        <item>小聲一點</item> 
+        <item>變小聲</item> 
+	<item>調小聲</item> 
+    </string-array>
+    
+    <string-array name="TvMaxVolume">
+        <item>Maximum Volume</item> 
+        <item>最大聲</item> 
+    </string-array>    
+    
+    <string-array name="TvVolumeChange">
+        <item>Change Volume</item> 
+        <item>Volume Change</item> 
+    </string-array>
+
+    <string-array name="TvVolumeOn">
+        <item>Volume on</item>
+        <item>恢復音量</item> 
+        <item>恢復聲音</item> 
+        <item>回復音量</item> 
+        <item>回復聲音</item> 
+        <item>音量回來</item> 
+        <item>聲音回來</item> 
+        <item>取消靜音</item> 
+    </string-array>
+    
+    <string-array name="TvExit">
+        <item>TV Off</item> 
+    </string-array>
+    
+</resources>

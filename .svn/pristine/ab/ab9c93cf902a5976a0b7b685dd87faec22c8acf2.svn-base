@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainRelative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/mainLinear"
+        android:layout_width="500dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_homedine_progress"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFFFFFFF" />
+
+        <LinearLayout
+            android:id="@+id/proLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_homedine_progress_2"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/topLinear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/createdAt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_select"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="#FF111111"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="#ffffa545"
+                    android:textSize="14sp" />
+
+                <!-- <TextView -->
+                <!-- android:id="@+id/grandTotal" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_margin="10dip" -->
+                <!-- android:layout_marginTop="1dip" -->
+                <!-- android:gravity="right" -->
+                <!-- android:singleLine="true" -->
+                <!-- android:text="" -->
+                <!-- android:textColor="#FF0000FF" -->
+                <!-- android:textSize="14sp" /> -->
+            </LinearLayout>
+
+            <GridView
+                android:id="@+id/foodGridView"
+                style="@style/ListView_Scrollbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layoutAnimation="@anim/list_anim_alpha"
+                android:numColumns="4" >
+            </GridView>
+
+            <ListView
+                android:id="@+id/statusListView"
+                style="@style/ListView_Scrollbar"
+                android:layout_width="match_parent"
+                android:layout_height="100dip"
+                android:layoutAnimation="@anim/list_anim_alpha" >
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/loadingImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_progressbar"
+        android:visibility="gone" />
+
+</RelativeLayout>

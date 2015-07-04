@@ -1,0 +1,109 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dine_dine" >
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:shadowColor="#FF000000"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:singleLine="true"
+        android:text="@string/homedine_title"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <include
+        android:id="@+id/menuBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/view_homedine_menubar" />
+
+    <FrameLayout
+        android:id="@+id/storeFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/loadShopTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#FFFFFFFF"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <GridView
+            android:id="@+id/storeGridView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:listSelector="#00000000"
+            android:numColumns="1"
+            android:scrollbars="none"
+            android:verticalSpacing="10dip" >
+        </GridView>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/foodRelative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <com.kentec.milkbox.thirdparty.TwoWayGridView
+            android:id="@+id/foodTwoWaygridview"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:listSelector="#00000000"
+            android:scrollbars="none"
+            app:scrollDirectionLandscape="horizontal"
+            app:scrollDirectionPortrait="vertical" />
+
+        <TextView
+            android:id="@+id/loadFoodTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="right"
+            android:shadowColor="#FF000000"
+            android:shadowDx="0"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#FFFFFFFF"
+            android:textSize="24sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/infoRelative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <include
+            android:id="@+id/foodInfo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            layout="@layout/view_homedine_foodinfo"
+            android:visibility="invisible" />
+
+        <include
+            android:id="@+id/storeinfo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            layout="@layout/view_homedine_storeinfo"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</AbsoluteLayout>

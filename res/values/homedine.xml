@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="progress"> 
+        <item>PROGRESS</item> 
+        <item>進度</item>  
+        <item>點餐進度</item> 
+        <item>到那裡了</item>    
+    </string-array>
+
+    <string-array name="calorie"> 
+        <item>CALORIE</item> 
+        <item>CALORIES</item>  
+        <item>卡路里</item> 
+        <item>卡洛里</item>    
+    </string-array>
+</resources>

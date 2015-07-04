@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainScreen"
+    android:background="@drawable/main_bg_open" >
+
+	<LinearLayout
+	    android:id="@+id/mainBtnBg"
+	    android:layout_width="wrap_content"
+	    android:layout_height="110dp"
+	    android:layout_marginTop="255dp"
+	    android:layout_marginLeft="35dp"
+	    android:layout_marginRight="35dp"
+	    android:layout_centerHorizontal="true">
+	    
+		<Button android:id="@+id/tvButton"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+	    	android:layout_height="80dp"
+	    	android:focusable="true"
+	    	android:clickable="true"
+	    	android:background="@drawable/main_btn_tv" />	 
+
+		<Button android:id="@+id/radioButton"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+	    	android:layout_height="80dp"
+	    	android:focusable="true"
+	    	android:clickable="true"
+	    	android:background="@drawable/main_btn_radio" />
+		
+		<Button android:id="@+id/groceryButton"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+	    	android:layout_height="80dp"
+	    	android:focusable="true"
+	    	android:clickable="true"
+	    	android:background="@drawable/main_btn_grocery" />
+		
+		<Button android:id="@+id/homedineButton"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+	    	android:layout_height="80dp"
+	    	android:focusable="true"
+	    	android:clickable="true"
+	    	android:background="@drawable/main_btn_homedine" />	
+	    							    	   
+		<Button android:id="@+id/couponButton"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+	    	android:layout_height="80dp"
+	    	android:focusable="true"
+	    	android:clickable="true"
+	    	android:background="@drawable/main_btn_coupon" />
+
+		<!-- 
+		<Button android:id="@+id/memoryButton"
+			android:layout_width="80dp"
+	    	android:layout_height="80dp"
+	    	android:focusable="true"
+	    	android:clickable="true"
+	    	android:background="@drawable/main_btn_memory"
+	    	android:visibility="gone" />		
+
+		<Button android:id="@+id/garagesaleButton"
+			android:layout_width="80dp"
+	    	android:layout_height="80dp"
+	    	android:focusable="true"
+	    	android:clickable="true"
+	    	android:background="@drawable/main_btn_garagesale"
+	    	android:visibility="gone" />				
+		
+		<Button android:id="@+id/gymButton"
+			android:layout_width="80dp"
+	    	android:layout_height="80dp"
+	    	android:focusable="true"
+	    	android:clickable="true"
+	    	android:background="@drawable/main_btn_gym"
+	    	android:visibility="gone" />
+	     -->
+	     
+	    <Button android:id="@+id/setupButton"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+	    	android:layout_height="80dp"
+	    	android:focusable="true"
+	    	android:clickable="true"
+	    	android:background="@drawable/main_btn_setup" />
+	</LinearLayout>
+	
+	<TextView
+	    android:id="@+id/mainHint"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginBottom="16dp"
+	    android:shadowColor="@android:color/black"
+	    android:shadowRadius="7.0"
+	    android:text=" 查看語音提示請按&apos;M&apos;鍵並說&apos;關鍵字&apos; "
+	    android:textColor="@android:color/white"
+	    android:textSize="14sp" />    
+	    
+    <ImageView 
+        android:id="@+id/moderator"
+    	android:layout_width="wrap_content"
+   	 	android:layout_height="wrap_content"
+   	 	android:visibility="invisible" />
+    
+    <!-- weather begin -->
+	
+	<include
+            android:id="@+id/weatherinfo"
+            android:layout_width="300dp"
+   	 		android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            layout="@layout/weather"
+            android:visibility="visible" />
+
+
+	
+</RelativeLayout>

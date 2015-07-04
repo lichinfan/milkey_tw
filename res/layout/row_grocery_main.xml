@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLl"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/mainRl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grocery_basket" >
+
+        <ImageView
+            android:id="@+id/mainIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_sweet" />
+
+        <TextView
+            android:id="@+id/countTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="13dp"
+            android:layout_gravity="right"
+            android:background="#a12315"
+            android:alpha="0.8"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:gravity="right"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/nameTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.2"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lines="1"
+            android:text="name"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/couponIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_coupon_mark" />
+
+        <ImageView
+            android:id="@+id/basketNumIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="-5dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:src="@drawable/basket_number_1" />
+    </RelativeLayout>
+
+</LinearLayout>

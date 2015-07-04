@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:background="#ffababab"
+        android:singleLine="true"
+        android:text="@string/checkout_select_current_setting"
+        android:textColor="#dd000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/currentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:singleLine="true"
+        android:text="@string/checkout_select_not_choosed_yet"
+        android:textColor="#99000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+        android:background="#ffababab"
+        android:singleLine="true"
+        android:text="@string/checkout_select_coupon"
+        android:textColor="#dd000000"
+        android:textStyle="bold" />
+
+    <ListView style="@style/ListView_Scrollbar"
+        android:id="@+id/couponListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#FF8e8e8e"
+        android:listSelector="#00000000" />
+
+</LinearLayout>
