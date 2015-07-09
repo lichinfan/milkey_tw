@@ -92,10 +92,10 @@ public class CFG
 	
 	public static void initHost(String host)
 	{
-		host = (DEBUG.TESTMAGENTO) ? "http://54.187.180.50/boxch" : host;
-		host = ((host == null) || (host.length() <= 0)) ? new String("http://54.187.180.50/boxch") : host;
+		host = (DEBUG.TESTMAGENTO) ? "http://54.187.180.50/boxtw" : host;
+		host = ((host == null) || (host.length() <= 0)) ? new String("http://54.187.180.50/boxtw") : host;
 		HOST = host;
-		HOST = "http://54.187.180.50/boxch";
+		HOST = "http://54.187.180.50/boxtw";
 		RPC_URL = host + "/index.php/api/xmlrpc";
 		API_ROOT_PATH = host + "/capi/";
 		API_DINE_PATH = API_ROOT_PATH + "Dine/";

@@ -86,7 +86,7 @@ public class WeatherHttpClient {
 				
 			// Forecast
 //			String url = BASE_FORECAST_URL + location;
-			String url = "http://54.187.180.50/boxch/capi/Weather/";
+			String url = "http://54.187.180.50/boxtw/capi/Weather/";
 			if (lang != null)
 				url = url + "&lang=" + lang;
 			

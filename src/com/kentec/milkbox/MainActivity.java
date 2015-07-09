@@ -85,7 +85,7 @@ public class MainActivity extends ASRActivity implements OnClickListener, OnFocu
 		flagForWeatherLoad = false;
 		flagForBackgroundLoad = true;
 		
-		//		CFG.initHost("http://54.187.180.50/boxch");
+		//		CFG.initHost("http://54.187.180.50/boxtw");
 		//		String customerId=this.getSP().getString(CFG.PREF_CUSTOMER_ID, null);
 		//		System.out.println("mainactivity customerid: "+customerId);
 		//		HashMap<?, ?> boxconfig;

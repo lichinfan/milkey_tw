@@ -21,6 +21,7 @@ public class GrocerySearchAddToCartTask extends BaseTask {
 	private ArrayList<Product> mProductList;
 	private ProductResult mProductResult;
 	private String mCartId;
+	private int mQuantity=1;
 
 	public GrocerySearchAddToCartTask(BaseActivity activity,OnSucessListener listener, String cartId) {
 		super(activity);
@@ -34,6 +35,14 @@ public class GrocerySearchAddToCartTask extends BaseTask {
 		mCartId = cartId;
 		mListener = listener;
 		mKeyword = keyword;
+	}
+	
+	public GrocerySearchAddToCartTask(BaseActivity activity,OnSucessListener listener,  String cartId, String keyword, int quantity) {
+		super(activity);
+		mCartId = cartId;
+		mListener = listener;
+		mKeyword = keyword;
+		mQuantity = quantity;
 	}
 	
 	private OnSucessListener mListener;	
@@ -67,7 +76,7 @@ public class GrocerySearchAddToCartTask extends BaseTask {
 			RpcClient client = CFG.getRpcClient();
 			Map<String, String> products = new HashMap<String, String>();
 			products.put("product_id", mProductList.get(0).getId());
-			products.put("qty", "1");
+			products.put("qty", Integer.toString(mQuantity));
 			Boolean success = client.cartProductAdd(mCartId, products);
 			if (success) {
 				return OK;

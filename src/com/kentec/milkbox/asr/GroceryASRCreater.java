@@ -183,6 +183,138 @@ public class GroceryASRCreater
 		 * @date 2014.03.18
 		 * 直接用語音說商品名稱加入購物車
 		 */
+		// 加入語意可辦識數量，一 ~ 十
+		mGroceryMainActivity.addASRCMDAdapter(new ASRCMDAdapter(ASRString.getResourceString(mGroceryMainActivity.getResources(), R.array.buytenproduct))
+		{
+			@Override
+			public void action()
+			{
+			}
+					
+			@Override
+			public void action(String strValue)
+			{
+				mGroceryMainActivity.openQuantityProductToCart(strValue, 10);
+			}
+		});
+		mGroceryMainActivity.addASRCMDAdapter(new ASRCMDAdapter(ASRString.getResourceString(mGroceryMainActivity.getResources(), R.array.buynineproduct))
+		{
+			@Override
+			public void action()
+			{
+			}
+					
+			@Override
+			public void action(String strValue)
+			{
+				mGroceryMainActivity.openQuantityProductToCart(strValue, 9);
+			}
+		});
+		mGroceryMainActivity.addASRCMDAdapter(new ASRCMDAdapter(ASRString.getResourceString(mGroceryMainActivity.getResources(), R.array.buyeightproduct))
+		{
+			@Override
+			public void action()
+			{
+			}
+					
+			@Override
+			public void action(String strValue)
+			{
+				mGroceryMainActivity.openQuantityProductToCart(strValue, 8);
+			}
+		});
+		mGroceryMainActivity.addASRCMDAdapter(new ASRCMDAdapter(ASRString.getResourceString(mGroceryMainActivity.getResources(), R.array.buysevenproduct))
+		{
+			@Override
+			public void action()
+			{
+			}
+					
+			@Override
+			public void action(String strValue)
+			{
+				mGroceryMainActivity.openQuantityProductToCart(strValue, 7);
+			}
+		});
+		mGroceryMainActivity.addASRCMDAdapter(new ASRCMDAdapter(ASRString.getResourceString(mGroceryMainActivity.getResources(), R.array.buysixproduct))
+		{
+			@Override
+			public void action()
+			{
+			}
+					
+			@Override
+			public void action(String strValue)
+			{
+				mGroceryMainActivity.openQuantityProductToCart(strValue, 6);
+			}
+		});
+		mGroceryMainActivity.addASRCMDAdapter(new ASRCMDAdapter(ASRString.getResourceString(mGroceryMainActivity.getResources(), R.array.buyfiveproduct))
+		{
+			@Override
+			public void action()
+			{
+			}
+					
+			@Override
+			public void action(String strValue)
+			{
+				mGroceryMainActivity.openQuantityProductToCart(strValue, 5);
+			}
+		});
+		mGroceryMainActivity.addASRCMDAdapter(new ASRCMDAdapter(ASRString.getResourceString(mGroceryMainActivity.getResources(), R.array.buyfourproduct))
+		{
+			@Override
+			public void action()
+			{
+			}
+					
+			@Override
+			public void action(String strValue)
+			{
+				mGroceryMainActivity.openQuantityProductToCart(strValue, 4);
+			}
+		});
+		mGroceryMainActivity.addASRCMDAdapter(new ASRCMDAdapter(ASRString.getResourceString(mGroceryMainActivity.getResources(), R.array.buythreeproduct))
+		{
+			@Override
+			public void action()
+			{
+			}
+					
+			@Override
+			public void action(String strValue)
+			{
+				mGroceryMainActivity.openQuantityProductToCart(strValue, 3);
+			}
+		});
+		mGroceryMainActivity.addASRCMDAdapter(new ASRCMDAdapter(ASRString.getResourceString(mGroceryMainActivity.getResources(), R.array.buytwoproduct))
+		{
+			@Override
+			public void action()
+			{
+			}
+					
+			@Override
+			public void action(String strValue)
+			{
+				mGroceryMainActivity.openQuantityProductToCart(strValue, 2);
+			}
+		});
+		mGroceryMainActivity.addASRCMDAdapter(new ASRCMDAdapter(ASRString.getResourceString(mGroceryMainActivity.getResources(), R.array.buyoneproduct))
+		{
+			@Override
+			public void action()
+			{
+			}
+					
+			@Override
+			public void action(String strValue)
+			{
+				mGroceryMainActivity.openQuantityProductToCart(strValue, 1);
+			}
+		});
+		// 說 "我想買 XX，會有數量 dialog 可選擇
 		mGroceryMainActivity.addASRCMDAdapter(new ASRCMDAdapter(ASRString.getResourceString(mGroceryMainActivity.getResources(), R.array.buyproductwithnumber))
 		{
 			@Override
@@ -209,6 +341,7 @@ public class GroceryASRCreater
 				mGroceryMainActivity.openProductToCart(strValue);
 			}
 		});
+		
 		
 		mGroceryMainActivity.addASRCMDAdapter(new ASRCMDAdapter(ASRString.getResourceString(mGroceryMainActivity.getResources(), R.array.deleteproduct))
 		{

@@ -39,7 +39,7 @@
             android:id="@+id/SettingFirstName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="First Name"
+            android:text="名字"
             android:textSize="18sp"
             android:textColor="@android:color/white" />
 
@@ -54,7 +54,7 @@
             android:id="@+id/SettingSurname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Surname"
+            android:text="姓"
             android:textSize="18sp"
             android:textColor="@android:color/white" />
 
@@ -69,7 +69,7 @@
             android:id="@+id/SettingNickname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nickname"
+            android:text="綽號"
             android:textSize="18sp"
             android:textColor="@android:color/white" />
 
@@ -84,7 +84,7 @@
             android:id="@+id/SettingGender"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Gender"
+            android:text="性別"
             android:textSize="18sp"
             android:textColor="@android:color/white" />
 
@@ -99,7 +99,7 @@
             android:id="@+id/SettingTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Title"
+            android:text="稱號"
             android:textSize="18sp"
             android:textColor="@android:color/white" />
 
@@ -114,7 +114,7 @@
             android:id="@+id/SettingMoreText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="More Info."
+            android:text="更多訊息."
             android:textSize="18sp"
             android:textColor="@android:color/white" />
 
@@ -140,7 +140,7 @@
                 android:id="@+id/SettingAddress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Address"
+                android:text="地址"
             	android:textSize="18sp"
             	android:textColor="@android:color/white" />
 
@@ -156,7 +156,7 @@
                 android:id="@+id/SettingTEL"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TEL No."
+                android:text="電話號碼"
             	android:textSize="18sp"
             	android:textColor="@android:color/white" />
 
@@ -171,7 +171,7 @@
                 android:id="@+id/SettingMobile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Mobile phone No."
+                android:text="行動電話號碼"
             	android:textSize="18sp"
             	android:textColor="@android:color/white" />
 
@@ -186,7 +186,7 @@
                 android:id="@+id/SettingCreditType"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Credit card type"
+                android:text="信用卡類型"
             	android:textSize="18sp"
             	android:textColor="@android:color/white" />
 
@@ -201,7 +201,7 @@
                 android:id="@+id/SettingCreditNo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Credit card No."
+                android:text="信用卡號"
             	android:textSize="18sp"
             	android:textColor="@android:color/white" />
 
@@ -216,7 +216,7 @@
                 android:id="@+id/SettingPassword"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Password"
+                android:text="密碼"
             	android:textSize="18sp"
             	android:textColor="@android:color/white" />
 
@@ -249,7 +249,7 @@
             android:id="@+id/SettingWifiHint"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Setting your internet"
+            android:text="設定您的網路"
             android:textSize="9sp"
             android:textColor="@android:color/white" />
 
@@ -269,7 +269,7 @@
             android:id="@+id/SettingBuletoothText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Buletooth"
+            android:text="藍牙"
             android:textSize="18sp"
             android:textColor="@android:color/white" />
 
@@ -277,7 +277,7 @@
             android:id="@+id/SettingBuletoothHint"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Turn on or turn off bluetooth"
+            android:text="開啟或關閉藍牙"
             android:textSize="9sp"
             android:textColor="@android:color/white" />
 
@@ -396,7 +396,7 @@
             android:id="@+id/SettingVersionText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Version"
+            android:text="版本"
             android:textSize="18sp"
             android:textColor="@android:color/white" />
 

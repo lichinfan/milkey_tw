@@ -99,6 +99,218 @@
         <item>買*</item>
         <item>i want buy *</item>
     </string-array>
+    <string-array name="buyoneproduct">
+        <item>我要買一盒*</item>
+        <item>給我一盒*</item>
+        <item>買一盒*</item>
+        <item>我要買一包*</item>
+        <item>給我一包*</item>
+        <item>買一包*</item>
+        <item>我要買一袋*</item>
+        <item>給我一袋*</item>
+        <item>買一袋*</item>
+        <item>我要買1盒*</item>
+        <item>給我1盒*</item>
+        <item>買1盒*</item>
+        <item>我要買1包*</item>
+        <item>給我1包*</item>
+        <item>買1包*</item>
+        <item>我要買1袋*</item>
+        <item>給我1袋*</item>
+        <item>買1袋*</item>
+        <item>i want buy one *</item>
+    </string-array>
+    <string-array name="buytwoproduct">
+        <item>我要買兩盒*</item>
+        <item>給我兩盒*</item>
+        <item>買兩盒*</item>
+        <item>我要買兩包*</item>
+        <item>給我兩包*</item>
+        <item>買兩包*</item>
+        <item>我要買兩袋*</item>
+        <item>給我兩袋*</item>
+        <item>買兩袋*</item>
+        <item>我要買2盒*</item>
+        <item>給我2盒*</item>
+        <item>買2盒*</item>
+        <item>我要買2包*</item>
+        <item>給我2包*</item>
+        <item>買2包*</item>
+        <item>我要買2袋*</item>
+        <item>給我2袋*</item>
+        <item>買2袋*</item>
+        <item>i want buy two *</item>
+    </string-array>
+    <string-array name="buythreeproduct">
+        <item>我要買三盒*</item>
+        <item>給我三盒*</item>
+        <item>買三盒*</item>
+        <item>我要買三包*</item>
+        <item>給我三包*</item>
+        <item>買三包*</item>
+        <item>我要買三袋*</item>
+        <item>給我三袋*</item>
+        <item>買三袋*</item>
+        <item>我要買3盒*</item>
+        <item>給我3盒*</item>
+        <item>買3盒*</item>
+        <item>我要買3包*</item>
+        <item>給我3包*</item>
+        <item>買3包*</item>
+        <item>我要買3袋*</item>
+        <item>給我3袋*</item>
+        <item>買3袋*</item>
+        <item>i want buy three *</item>
+    </string-array>
+    <string-array name="buyfourproduct">
+        <item>我要買四盒*</item>
+        <item>給我四盒*</item>
+        <item>買四盒*</item>
+        <item>我要買四包*</item>
+        <item>給我四包*</item>
+        <item>買四包*</item>
+        <item>我要買四袋*</item>
+        <item>給我四袋*</item>
+        <item>買四袋*</item>
+        <item>我要買4盒*</item>
+        <item>給我4盒*</item>
+        <item>買4盒*</item>
+        <item>我要買4包*</item>
+        <item>給我4包*</item>
+        <item>買4包*</item>
+        <item>我要買4袋*</item>
+        <item>給我4袋*</item>
+        <item>買4袋*</item>
+        <item>i want buy four *</item>
+    </string-array>
+    <string-array name="buyfiveproduct">
+        <item>我要買五盒*</item>
+        <item>給我五盒*</item>
+        <item>買五盒*</item>
+        <item>我要買五包*</item>
+        <item>給我五包*</item>
+        <item>買五包*</item>
+        <item>我要買五袋*</item>
+        <item>給我五袋*</item>
+        <item>買五袋*</item>
+        <item>我要買5盒*</item>
+        <item>給我5盒*</item>
+        <item>買5盒*</item>
+        <item>我要買5包*</item>
+        <item>給我5包*</item>
+        <item>買5包*</item>
+        <item>我要買5袋*</item>
+        <item>給我5袋*</item>
+        <item>買5袋*</item>
+        <item>i want buy five *</item>
+    </string-array>
+    <string-array name="buysixproduct">
+        <item>我要買六盒*</item>
+        <item>給我六盒*</item>
+        <item>買六盒*</item>
+        <item>我要買六包*</item>
+        <item>給我六包*</item>
+        <item>買六包*</item>
+        <item>我要買六袋*</item>
+        <item>給我六袋*</item>
+        <item>買六袋*</item>
+        <item>我要買6盒*</item>
+        <item>給我6盒*</item>
+        <item>買6盒*</item>
+        <item>我要買6包*</item>
+        <item>給我6包*</item>
+        <item>買6包*</item>
+        <item>我要買6袋*</item>
+        <item>給我6袋*</item>
+        <item>買6袋*</item>
+        <item>i want buy six *</item>
+    </string-array>
+    <string-array name="buysevenproduct">
+        <item>我要買七盒*</item>
+        <item>給我七盒*</item>
+        <item>買七盒*</item>
+        <item>我要買七包*</item>
+        <item>給我七包*</item>
+        <item>買七包*</item>
+        <item>我要買七袋*</item>
+        <item>給我七袋*</item>
+        <item>買七袋*</item>
+        <item>我要買7盒*</item>
+        <item>給我7盒*</item>
+        <item>買7盒*</item>
+        <item>我要買7包*</item>
+        <item>給我7包*</item>
+        <item>買7包*</item>
+        <item>我要買7袋*</item>
+        <item>給我7袋*</item>
+        <item>買7袋*</item>
+        <item>i want buy seven *</item>
+    </string-array>
+    <string-array name="buyeightproduct">
+        <item>我要買八盒*</item>
+        <item>我要買八和*</item>
+        <item>我要買八代*</item>
+        <item>給我八盒*</item>
+        <item>買八盒*</item>
+        <item>我要買八包*</item>
+        <item>給我八包*</item>
+        <item>買八包*</item>
+        <item>我要買八袋*</item>
+        <item>給我八袋*</item>
+        <item>買八袋*</item>
+        <item>我要買8盒*</item>
+        <item>給我8盒*</item>
+        <item>買8盒*</item>
+        <item>我要買8包*</item>
+        <item>給我8包*</item>
+        <item>買8包*</item>
+        <item>我要買8袋*</item>
+        <item>給我8袋*</item>
+        <item>買8袋*</item>
+        <item>i want buy eight *</item>
+    </string-array>
+    <string-array name="buynineproduct">
+        <item>我要買九盒*</item>
+        <item>給我九盒*</item>
+        <item>買九盒*</item>
+        <item>我要買九包*</item>
+        <item>給我九包*</item>
+        <item>買九包*</item>
+        <item>我要買九袋*</item>
+        <item>給我九袋*</item>
+        <item>買九袋*</item>
+        <item>我要買9盒*</item>
+        <item>給我9盒*</item>
+        <item>買9盒*</item>
+        <item>我要買9包*</item>
+        <item>給我9包*</item>
+        <item>買9包*</item>
+        <item>我要買9袋*</item>
+        <item>給我9袋*</item>
+        <item>買9袋*</item>
+        <item>i want buy nine *</item>
+    </string-array>
+    <string-array name="buytenproduct">
+        <item>我要買十盒*</item>
+        <item>給我十盒*</item>
+        <item>買十盒*</item>
+        <item>我要買十包*</item>
+        <item>給我十包*</item>
+        <item>買十包*</item>
+        <item>我要買十袋*</item>
+        <item>給我十袋*</item>
+        <item>買十袋*</item>
+        <item>我要買10盒*</item>
+        <item>給我10盒*</item>
+        <item>買10盒*</item>
+        <item>我要買10包*</item>
+        <item>給我10包*</item>
+        <item>買10包*</item>
+        <item>我要買10袋*</item>
+        <item>給我10袋*</item>
+        <item>買10袋*</item>
+        <item>i want buy ten *</item>
+    </string-array>
     <string-array name="buyproductwithnumber">
         <item>我想買*</item>
     </string-array>

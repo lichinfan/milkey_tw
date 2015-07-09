@@ -39,7 +39,7 @@ public class MainApp extends Application
 		{
 			// 當 CFG 透過 MFS 讀取資料錯誤時改由此代入預設值
 			// CFG.initHost("http://testmagento.now.to");
-			CFG.initHost("http://54.187.180.50/boxch/");
+			CFG.initHost("http://54.187.180.50/boxtw/");
 			Log.e("MainApp", e.toString());
 		}
 	}

@@ -48,7 +48,7 @@ import com.kentec.milkbox.utils.ASRCompare;
 @SuppressLint("SimpleDateFormat")
 public class ASRActivity extends BaseActivity
 {
-	//手指按下的点为(x1, y1)手指离开屏幕的点为(x2, y2)  
+	//手指按下的點為(x1, y1)手指離開屏幕的點為(x2, y2)  
     float x1 = 0;  
     float x2 = 0;  
     float y1 = 0;  
@@ -227,7 +227,7 @@ public class ASRActivity extends BaseActivity
 									
 									// 完全被沒有符合的 Voice Command
 									//"Can you say that again.", " I don't understand.", "I beg your pardon."
-									String strSpeak[] = { "抱歉，請再說一次", "抱歉，請再說一次", "抱歉，請再說一次"};
+									String strSpeak[] = { "抱歉，請再說一次", "我不明白", "請再說一次"};
 
 									int indexNo2 = (int) (Math.random() * 3) ; // 亂數得到 0 - 2 的值
 									int indexNo3 = (int) (Math.random() * 2) ; // 亂數得到 0 - 1 的值

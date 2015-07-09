@@ -92,6 +92,7 @@ public class GroceryMainActivity extends ASRActivity
 	protected String mCouponCartId;
 	protected String mCustomerId;
 	protected String mKeyword;
+	protected int mQuantity=1;
 
 	protected int mNaviBtnWidth;
 	protected int mNaviBtnMarginRight;
@@ -710,6 +711,11 @@ public class GroceryMainActivity extends ASRActivity
 		new GrocerySearchAddToCartTask(mActivity, addProductSearchSuccessListener,mCartId, strValue);
 	}
 	
+	public void openQuantityProductToCart(String strValue, int quantity) {
+		mQuantity = quantity;
+		new GrocerySearchAddToCartTask(mActivity, addProductSearchWithQuantitySuccessListener,mCartId, strValue, quantity);
+	}
+	
 	GrocerySearchTask.OnSucessListener productSearchSuccessListener = new GrocerySearchTask.OnSucessListener() {
 		
 		@Override
@@ -740,6 +746,33 @@ public class GroceryMainActivity extends ASRActivity
 				moderatorDialog( " ["+pList.get(0).getName()+"] 加入購物車內"
 								, indexNo, 5000);
 				MilkBoxTTS.speak("我已經幫您把 "+pList.get(0).getName()+" 加入購物車內"
+						, "voicesearchaddtocart");	
+				// andywu 2014.03.28 加入更新購物車數量
+				updatecartnumber() ; 
+			}
+		}
+		
+		@Override
+		public void fail(int failCode) {
+			int indexNo = (int) (Math.random() * 2) + 1;
+			moderatorDialog( "找不到您要的商品"
+					, indexNo, 4000);
+			MilkBoxTTS.speak("我找不到您要的商品"
+					, "voicesearchaddtocart");
+			
+		}
+	};
+	
+	GrocerySearchAddToCartTask.OnSucessListener addProductSearchWithQuantitySuccessListener = new GrocerySearchAddToCartTask.OnSucessListener() {
+		
+		@Override
+		public void success(ProductResult mProductResult) {
+			ArrayList<Product> pList = mProductResult.getList();
+			int indexNo = (int) (Math.random() * 2) + 1;
+			if(pList.size() > 0) {
+				moderatorDialog( Integer.toString(mQuantity)+"個單位的 ["+pList.get(0).getName()+"] 加入購物車內"
+								, indexNo, 5000);
+				MilkBoxTTS.speak("我已經幫您把"+Integer.toString(mQuantity)+"個單位的"+pList.get(0).getName()+" 加入購物車內"
 						, "voicesearchaddtocart");	
 				// andywu 2014.03.28 加入更新購物車數量
 				updatecartnumber() ; 
